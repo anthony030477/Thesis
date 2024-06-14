@@ -18,7 +18,6 @@
   
   conda install -y conda-forge::rouge-score
   
-  pip install opencc-python-reimplemented
 ```  
 
 ## Run
