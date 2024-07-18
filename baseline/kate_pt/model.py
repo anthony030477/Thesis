@@ -34,7 +34,7 @@ class SBert(torch.nn.Module):
 
     
 class PromptEncoder(nn.Module):
-    def __init__(self, input_size=4096, output_size=4096,bottle=config['train_config']['pe_bottle'],heads=config['train_config']['pe_heads']):
+    def __init__(self, input_size=4096, output_size=4096,bottle=config['train_config']['pe_bottle']):
         super().__init__()
         
         
