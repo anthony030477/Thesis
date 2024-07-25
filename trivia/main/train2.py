@@ -223,7 +223,7 @@ if __name__=='__main__':
         trainer(i)
         torch.save(prior_PE.state_dict(),f'save/prior_PE_two.pt')
 
-        inference(mode='validation',loader=val_loader) 
+        #inference(mode='validation',loader=val_loader) 
     inference(mode='test',loader=test_loader)    
     
 
