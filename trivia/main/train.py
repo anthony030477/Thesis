@@ -193,5 +193,5 @@ if __name__=='__main__':
         trainer(i)
         torch.save(prior_PE.state_dict(),f'save/prior_PE_one.pt')
         torch.save(posterior_PE.state_dict(),f'save/posterior_PE_one.pt')
-        inference(mode='validation',loader=val_loader) 
+        #inference(mode='validation',loader=val_loader) 
     # inference(mode='test',loader=test_loader)
