@@ -188,5 +188,5 @@ if __name__=='__main__':
     for i in range(train_config['max_epoch']):
         trainer(i)
         torch.save(prior_PE.state_dict(),'save/prior_PE.pt')
-        inference(mode='validation',loader=val_loader)
+        # inference(mode='validation',loader=val_loader)
     inference(mode='test',loader=test_loader)
