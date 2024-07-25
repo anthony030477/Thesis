@@ -161,7 +161,7 @@ if __name__=='__main__':
         trainer(i)
         torch.save(pe.state_dict(),f'save/pe.pt')
 
-        inference(mode='validation',loader=val_loader) 
+        # inference(mode='validation',loader=val_loader) 
     
     inference(mode='test',loader=test_loader)   
     
