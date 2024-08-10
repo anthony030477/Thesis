@@ -21,8 +21,38 @@
 ```  
 
 ## Run
-```
-  python3 train.py
-  
-  python3 train2.py
-```
+- NQ
+  - main
+  ```
+    cd nq/main
+    bash run.sh
+  ```
+  - baseline
+  ```
+    cd nq/baseline
+    bash run.sh
+  ```
+
+- TriviaQA
+  - main
+  ```
+    cd trivia/main
+    bash run.sh
+  ```
+  - baseline
+  ```
+    cd trivia/baseline
+    bash run.sh
+  ```
+
+- ASQA
+  - main
+  ```
+    cd asqa/main
+    bash run.sh
+  ```
+  - baseline
+  ```
+    cd asqa/baseline
+    bash run.sh
+  ```
