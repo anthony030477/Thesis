@@ -21,7 +21,7 @@
 ```  
 
 ## Run
-- NQ
+- Natural Questions
   - main
   ```
     cd nq/main
