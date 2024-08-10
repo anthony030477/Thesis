@@ -28,10 +28,26 @@
     bash run.sh
   ```
   - baseline
-  ```
-    cd nq/baseline
-    bash run.sh
-  ```
+    - original model and Kate and random selection
+    ```
+      cd nq/baseline/kate_orig_rs
+      bash run.sh
+    ```
+    - KP
+    ```
+      cd nq/baseline/kate_pt
+      bash run.sh
+    ```
+    - p_tuning
+    ```
+      cd nq/baseline/p_tuning
+      bash run.sh
+    ```
+    - prompt tuning
+    ```
+      cd nq/baseline/prompt_tuning
+      bash run.sh
+    ```
 
 - TriviaQA
   - main
@@ -40,10 +56,26 @@
     bash run.sh
   ```
   - baseline
-  ```
-    cd trivia/baseline
-    bash run.sh
-  ```
+    - original model and Kate and random selection
+    ```
+      cd trivia/baseline/kate_orig_rs
+      bash run.sh
+    ```
+    - KP
+    ```
+      cd trivia/baseline/kate_pt
+      bash run.sh
+    ```
+    - p_tuning
+    ```
+      cd trivia/baseline/p_tuning
+      bash run.sh
+    ```
+    - prompt tuning
+    ```
+      cd trivia/baseline/prompt_tuning
+      bash run.sh
+    ```
 
 - ASQA
   - main
@@ -52,7 +84,23 @@
     bash run.sh
   ```
   - baseline
-  ```
-    cd asqa/baseline
-    bash run.sh
-  ```
+    - original model and Kate and random selection
+    ```
+      cd asqa/baseline/kate_orig_rs
+      bash run.sh
+    ```
+    - KP
+    ```
+      cd asqa/baseline/kate_pt
+      bash run.sh
+    ```
+    - p_tuning
+    ```
+      cd asqa/baseline/p_tuning
+      bash run.sh
+    ```
+    - prompt tuning
+    ```
+      cd asqa/baseline/prompt_tuning
+      bash run.sh
+    ```
