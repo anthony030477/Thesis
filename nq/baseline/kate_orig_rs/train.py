@@ -76,7 +76,7 @@ def inference(loader,mode):
                 
                 if mode=='orig':
                     for a in all_as[i]:
-                        if predict[:len(a)]==a:
+                        if predict==a:
                             found=True
                             break
                         else:
