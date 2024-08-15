@@ -81,8 +81,9 @@ def inference(loader,mode='orig',output_files=False):
 
                 if not torch.isinf(torch.tensor(es)) and not torch.isnan(torch.tensor(es)):
                     es_ls.append(es)
-                
-                predict=predict.split('\n')[0].strip()
+
+                if mode=='kate' or mode=='rand':
+                    predict=predict.split('\n')[0].strip()
                 
                 rouge=max((scorer.score(predict, answer)['rougeL'].fmeasure) for answer in all_as[i])
                 rouge1=max((scorer1.score(predict, answer)['rouge1'].fmeasure) for answer in all_as[i])
