@@ -35,7 +35,7 @@ generate_config_es:
   top_k: 50
   top_p: 0.9
   num_beams: 1
-  temperature: 3.0
+  temperature: 1.0
 
 dataset_path: "din0s/asqa"
 
